@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pure CSS Carousel</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+	iframe{
+		width: 100%;
+		height: 100%;
+	}
+  </style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="slider">
+		<input type="radio" name="testimonial" id="t-1">
+		<input type="radio" name="testimonial" id="t-2">
+		<input type="radio" name="testimonial" id="t-3" checked>
+		<div class="testimonials">
+			<label class="item" for="t-1">
+				<iframe src="./Cassett Player 1/index.html" scrolling="no" frameborder="0"></iframe>
+			</label>
+			<label class="item" for="t-2">
+				<iframe src="./Cassett Player 2/index.html" scrolling="no" frameborder="0"></iframe>
+			</label>
+			<label class="item" for="t-3">
+				<iframe src="./Cassett Player 3/index.html" scrolling="no" frameborder="0"></iframe>
+			</label>
+			
+		</div>
+		<div class="dots">
+			<label for="t-1"></label>
+			<label for="t-2"></label>
+			<label for="t-3"></label>
+		</div>
+	</div>
+<!-- partial -->
+  
+</body>
+</html>
